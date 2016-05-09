@@ -21,12 +21,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaCanada" translatesAutoresizingMaskIntoConstraints="NO" id="cuY-hm-dps">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHF-jD-Rfs">
-                                <rect key="frame" x="10" y="10" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="UyH-MI-WrS">
-                                <rect key="frame" x="20" y="20" width="307" height="229"/>
+                                <rect key="frame" x="20" y="20" width="307" height="301"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="SpO-sy-epC">
                                         <rect key="frame" x="0.0" y="0.0" width="144" height="62"/>
@@ -36,34 +32,55 @@
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="88" height="21"/>
+                                                </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ADVENTURES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQ6-Ud-kY5">
                                                 <rect key="frame" x="0.0" y="21" width="116" height="21"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="21" width="116" height="21"/>
+                                                </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="OAK WOODLAND" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJG-Ov-AJd">
                                                 <rect key="frame" x="0.0" y="41" width="144" height="21"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="41" width="144" height="21"/>
+                                                </variation>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="0.0" width="144" height="62"/>
+                                        </variation>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="yGZ-A0-Ggj">
-                                        <rect key="frame" x="0.0" y="92" width="307" height="72"/>
+                                        <rect key="frame" x="0.0" y="92" width="307" height="144"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Canada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJK-rI-OA5">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Canada" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJK-rI-OA5">
                                                 <rect key="frame" x="0.0" y="0.0" width="307" height="72"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Flintridge" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etd-fk-Bcb">
+                                                <rect key="frame" x="0.0" y="72" width="307" height="72"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="60"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="92" width="307" height="144"/>
+                                        </variation>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Vko-Wz-SDM">
-                                        <rect key="frame" x="0.0" y="194" width="185" height="35"/>
+                                        <rect key="frame" x="0.0" y="266" width="185" height="35"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="compass" translatesAutoresizingMaskIntoConstraints="NO" id="ujm-7i-Qzu">
                                                 <rect key="frame" x="0.0" y="0.0" width="35" height="35"/>
@@ -75,8 +92,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="266" width="185" height="35"/>
+                                        </variation>
                                     </stackView>
                                 </subviews>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="20" width="307" height="301"/>
+                                </variation>
                             </stackView>
                             <button opaque="NO" alpha="0.75" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWN-LY-DqR">
                                 <rect key="frame" x="229" y="468" width="142" height="38"/>
@@ -125,7 +148,114 @@
                     <view key="view" contentMode="scaleToFill" id="FfX-SO-2Sg">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LACFSign" translatesAutoresizingMaskIntoConstraints="NO" id="pw5-LK-7kH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="BYm-Cb-EXL">
+                                        <variation key="heightClass=compact" constant="25"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <exclude reference="BYm-Cb-EXL"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yn0-Cp-OlF">
+                                <rect key="frame" x="14" y="12" width="53" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="k2v-cJ-DqN">
+                                <rect key="frame" x="20" y="210" width="560" height="370"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="zgQ-QE-9dj">
+                                        <rect key="frame" x="0.0" y="0.0" width="560" height="52"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuJ-gO-haG">
+                                                <rect key="frame" x="0.0" y="0.0" width="110" height="32"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="20,246" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3q4-jP-W4j">
+                                                <rect key="frame" x="0.0" y="32" width="52" height="20"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="BCa-pu-iNB">
+                                        <rect key="frame" x="0.0" y="64" width="560" height="307"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" misplaced="YES" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLF-5b-q3S">
+                                                <rect key="frame" x="0.0" y="0.0" width="76" height="89"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="0.0" width="76" height="21"/>
+                                                </variation>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOa-yf-SZs">
+                                                <rect key="frame" x="0.0" y="94" width="551" height="213"/>
+                                                <color key="backgroundColor" red="0.7234538613" green="0.7234538613" blue="0.7234538613" alpha="1" colorSpace="calibratedRGB"/>
+                                                <mutableString key="text">During the Spanish and Mexican eras, the area was known as Rancho La Cañada. Prior to the city's incorporation in 1976, it consisted of two distinct communities, La Cañada and Flintridge. La Cañada comes from the Spanish word cañada (pronounced "canyada"), meaning canyon, gorge, or ravine; Flintridge was named after its developer, United States Senator Frank P. Flint).Flintridge comprises the southern part of the city, covering the northern flank of the San Rafael Hills, but more generally including most areas south of Foothill Blvd. The eastern part, even north of Foothill Blvd., was also originally considered Flintridge and is still home to the Flintridge Riding Club and Flintridge Preparatory School.Reference to the entire city is often shortened to just "La Cañada" or seldomly to just "Flintridge". The full city name specifically does not have a hyphen in it, to illustrate unity between the two communities that became one.
+
+</mutableString>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                                <variation key="heightClass=compact" misplaced="YES">
+                                                    <rect key="frame" x="0.0" y="26" width="551" height="213"/>
+                                                </variation>
+                                            </label>
+                                        </subviews>
+                                        <variation key="heightClass=compact" misplaced="YES">
+                                            <rect key="frame" x="0.0" y="53" width="560" height="238"/>
+                                        </variation>
+                                    </stackView>
+                                </subviews>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="20" y="65" width="560" height="291"/>
+                                </variation>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KiF-98-SUT" firstAttribute="top" secondItem="pw5-LK-7kH" secondAttribute="bottom" id="3hs-7s-ZBd"/>
+                            <constraint firstAttribute="trailing" secondItem="pw5-LK-7kH" secondAttribute="trailing" id="51W-OX-axN"/>
+                            <constraint firstItem="pw5-LK-7kH" firstAttribute="top" secondItem="FfX-SO-2Sg" secondAttribute="top" id="7NN-Zf-JFL"/>
+                            <constraint firstItem="k2v-cJ-DqN" firstAttribute="leading" secondItem="FfX-SO-2Sg" secondAttribute="leadingMargin" id="Dri-ox-Qpz"/>
+                            <constraint firstItem="pw5-LK-7kH" firstAttribute="top" secondItem="FfX-SO-2Sg" secondAttribute="top" id="GSj-2Y-TFQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="k2v-cJ-DqN" secondAttribute="trailing" id="Glk-2o-U6x"/>
+                            <constraint firstItem="KiF-98-SUT" firstAttribute="top" secondItem="k2v-cJ-DqN" secondAttribute="bottom" constant="20" id="TYZ-xd-XjS"/>
+                            <constraint firstAttribute="trailing" secondItem="pw5-LK-7kH" secondAttribute="trailing" id="Ydi-qe-qv2"/>
+                            <constraint firstItem="pw5-LK-7kH" firstAttribute="leading" secondItem="FfX-SO-2Sg" secondAttribute="leading" id="eUs-5b-Q4G"/>
+                            <constraint firstItem="pw5-LK-7kH" firstAttribute="leading" secondItem="FfX-SO-2Sg" secondAttribute="leading" id="jea-Dd-JuI"/>
+                            <constraint firstItem="k2v-cJ-DqN" firstAttribute="top" secondItem="pw5-LK-7kH" secondAttribute="bottom" constant="40" id="nCS-RU-MPe"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7NN-Zf-JFL"/>
+                                <exclude reference="Ydi-qe-qv2"/>
+                                <exclude reference="eUs-5b-Q4G"/>
+                                <exclude reference="3hs-7s-ZBd"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact">
+                            <mask key="constraints">
+                                <include reference="7NN-Zf-JFL"/>
+                                <include reference="Ydi-qe-qv2"/>
+                                <include reference="eUs-5b-Q4G"/>
+                                <exclude reference="nCS-RU-MPe"/>
+                                <include reference="3hs-7s-ZBd"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xv1-xk-tqo" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -134,6 +264,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="LACFSign" width="2674" height="1796"/>
         <image name="LaCanada" width="2867" height="2242"/>
         <image name="compass" width="35" height="35"/>
     </resources>
