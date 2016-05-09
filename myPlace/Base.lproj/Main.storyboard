@@ -182,13 +182,13 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="POPULATION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuJ-gO-haG">
                                                 <rect key="frame" x="0.0" y="0.0" width="110" height="32"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.7234538613" green="0.7234538613" blue="0.7234538613" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="20,246" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3q4-jP-W4j">
                                                 <rect key="frame" x="0.0" y="32" width="52" height="20"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.7234538613" green="0.7234538613" blue="0.7234538613" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -199,7 +199,7 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" misplaced="YES" text="HISTORY" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLF-5b-q3S">
                                                 <rect key="frame" x="0.0" y="0.0" width="76" height="89"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
-                                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.7234538613" green="0.7234538613" blue="0.7234538613" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=compact" misplaced="YES">
                                                     <rect key="frame" x="0.0" y="0.0" width="76" height="21"/>
@@ -207,12 +207,11 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TOa-yf-SZs">
                                                 <rect key="frame" x="0.0" y="94" width="551" height="213"/>
-                                                <color key="backgroundColor" red="0.7234538613" green="0.7234538613" blue="0.7234538613" alpha="1" colorSpace="calibratedRGB"/>
                                                 <mutableString key="text">During the Spanish and Mexican eras, the area was known as Rancho La Cañada. Prior to the city's incorporation in 1976, it consisted of two distinct communities, La Cañada and Flintridge. La Cañada comes from the Spanish word cañada (pronounced "canyada"), meaning canyon, gorge, or ravine; Flintridge was named after its developer, United States Senator Frank P. Flint).Flintridge comprises the southern part of the city, covering the northern flank of the San Rafael Hills, but more generally including most areas south of Foothill Blvd. The eastern part, even north of Foothill Blvd., was also originally considered Flintridge and is still home to the Flintridge Riding Club and Flintridge Preparatory School.Reference to the entire city is often shortened to just "La Cañada" or seldomly to just "Flintridge". The full city name specifically does not have a hyphen in it, to illustrate unity between the two communities that became one.
 
 </mutableString>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
-                                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.7234538613" green="0.7234538613" blue="0.7234538613" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                                 <variation key="heightClass=compact" misplaced="YES">
                                                     <rect key="frame" x="0.0" y="26" width="551" height="213"/>
@@ -298,7 +297,73 @@
                     <view key="view" contentMode="scaleToFill" id="Y4n-ug-o5y">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="descansoGardens" translatesAutoresizingMaskIntoConstraints="NO" id="3bn-b5-9oj">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="170" id="4JH-JH-8bG"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" alpha="0.55000001192092896" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BLv-ln-13T">
+                                <rect key="frame" x="9" y="20" width="92" height="34"/>
+                                <color key="backgroundColor" red="1" green="0.1021214471" blue="0.1129112177" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="odv-eq-09z"/>
+                                    <constraint firstAttribute="width" constant="92" id="uvk-sV-wFx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backPressed:" destination="fcf-bo-b8O" eventType="touchUpInside" id="Bi0-i9-5b6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Descanso Gardens" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CjY-7r-tfC">
+                                <rect key="frame" x="220" y="70" width="161" height="30"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.99828206809999998" green="0.99828206809999998" blue="0.99828206809999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="wSu-ww-hbf">
+                                <rect key="frame" x="9" y="188" width="582" height="392"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="HISTORY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hGa-WS-IOi">
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="36"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                        <color key="textColor" red="0.7234538613" green="0.7234538613" blue="0.7234538613" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDd-zW-SiF">
+                                        <rect key="frame" x="0.0" y="36" width="582" height="357"/>
+                                        <mutableString key="text">Descanso Gardens is a story of plants and the people who loved them for their life-giving utility and their great natural beauty. While the tale unfolds over centuries, the connecting thread – from the tribal people who relied on the plentiful oaks for food and their way of life to the 20th century entrepreneur who sowed the seeds of a cultural institution – is a deep-seated love for this evocative and distinctive place. Its evolution into a botanic garden, open to the public and nationally accredited as a “museum of living collections,” is but the most recent chapter in the rich history of this landscape. Today Descanso Gardens remains an oasis of beauty, both rugged and refined. In its eloquent landscapes, vignettes and vistas we can experience firsthand moments in the epic story of humans’ relationships with the natural world and enjoy a refuge of stunning beauty.</mutableString>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                                        <color key="textColor" red="0.7234538613" green="0.7234538613" blue="0.7234538613" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wSu-ww-hbf" firstAttribute="top" secondItem="3bn-b5-9oj" secondAttribute="bottom" constant="18" id="8Hr-nt-gez"/>
+                            <constraint firstAttribute="trailing" secondItem="3bn-b5-9oj" secondAttribute="trailing" id="CEX-tf-any"/>
+                            <constraint firstItem="wSu-ww-hbf" firstAttribute="leading" secondItem="Y4n-ug-o5y" secondAttribute="leading" constant="9" id="HCK-kJ-rPH"/>
+                            <constraint firstItem="NKl-wp-SOk" firstAttribute="top" secondItem="wSu-ww-hbf" secondAttribute="bottom" constant="20" id="Lj1-0E-xve"/>
+                            <constraint firstItem="BLv-ln-13T" firstAttribute="top" secondItem="itx-ZV-U2S" secondAttribute="bottom" id="PlC-V1-dSS"/>
+                            <constraint firstItem="BLv-ln-13T" firstAttribute="leading" secondItem="Y4n-ug-o5y" secondAttribute="leadingMargin" id="WnW-Sv-2tM"/>
+                            <constraint firstItem="3bn-b5-9oj" firstAttribute="top" secondItem="Y4n-ug-o5y" secondAttribute="top" id="hBJ-Yq-Ia2"/>
+                            <constraint firstAttribute="trailing" secondItem="wSu-ww-hbf" secondAttribute="trailing" constant="9" id="jmZ-Pv-QkE"/>
+                            <constraint firstItem="BLv-ln-13T" firstAttribute="leading" secondItem="Y4n-ug-o5y" secondAttribute="leading" constant="9" id="kZg-5z-hvN"/>
+                            <constraint firstItem="CjY-7r-tfC" firstAttribute="centerX" secondItem="3bn-b5-9oj" secondAttribute="centerX" id="lSj-bk-l1t"/>
+                            <constraint firstItem="3bn-b5-9oj" firstAttribute="leading" secondItem="Y4n-ug-o5y" secondAttribute="leading" id="sBg-0G-HAL"/>
+                            <constraint firstItem="CjY-7r-tfC" firstAttribute="centerY" secondItem="3bn-b5-9oj" secondAttribute="centerY" id="wXb-tK-LYg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="WnW-Sv-2tM"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CDT-lx-hCL" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -310,5 +375,6 @@
         <image name="LACFSign" width="2674" height="1796"/>
         <image name="LaCanada" width="2867" height="2242"/>
         <image name="compass" width="35" height="35"/>
+        <image name="descansoGardens" width="1480" height="493"/>
     </resources>
 </document>

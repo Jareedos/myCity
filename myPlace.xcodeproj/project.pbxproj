@@ -13,6 +13,7 @@
 		BF056DF01CDFD01E00107A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF056DEF1CDFD01E00107A4D /* Assets.xcassets */; };
 		BF056DF31CDFD01E00107A4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF056DF11CDFD01E00107A4D /* LaunchScreen.storyboard */; };
 		BF056DFD1CE00B8700107A4D /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF056DFC1CE00B8700107A4D /* DetailVC.swift */; };
+		BF056DFF1CE10D7A00107A4D /* DescansoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF056DFE1CE10D7A00107A4D /* DescansoVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		BF056DF21CDFD01E00107A4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF056DF41CDFD01E00107A4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF056DFC1CE00B8700107A4D /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		BF056DFE1CE10D7A00107A4D /* DescansoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescansoVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				BF056DF11CDFD01E00107A4D /* LaunchScreen.storyboard */,
 				BF056DF41CDFD01E00107A4D /* Info.plist */,
 				BF056DFC1CE00B8700107A4D /* DetailVC.swift */,
+				BF056DFE1CE10D7A00107A4D /* DescansoVC.swift */,
 			);
 			path = myPlace;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF056DFF1CE10D7A00107A4D /* DescansoVC.swift in Sources */,
 				BF056DEB1CDFD01E00107A4D /* ViewController.swift in Sources */,
 				BF056DE91CDFD01E00107A4D /* AppDelegate.swift in Sources */,
 				BF056DFD1CE00B8700107A4D /* DetailVC.swift in Sources */,
