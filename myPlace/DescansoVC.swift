@@ -9,11 +9,12 @@
 import UIKit
 
 class DescansoVC: UIViewController {
+    @IBOutlet weak var descansoBackBtn: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        descansoBackBtn.layer.cornerRadius = 2.0
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +22,9 @@ class DescansoVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func onDBackBtnPressed(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
 
     /*
     // MARK: - Navigation
