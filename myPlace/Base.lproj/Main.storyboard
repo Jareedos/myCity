@@ -137,10 +137,10 @@
             </objects>
             <point key="canvasLocation" x="-449" y="229"/>
         </scene>
-        <!--View Controller-->
+        <!--DetailVC-->
         <scene sceneID="PKf-nK-D15">
             <objects>
-                <viewController id="fcf-bo-b8O" sceneMemberID="viewController">
+                <viewController id="fcf-bo-b8O" customClass="DetailVC" customModule="myPlace" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jeo-rd-pZl"/>
                         <viewControllerLayoutGuide type="bottom" id="KiF-98-SUT"/>
@@ -168,6 +168,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="backPressed:" destination="fcf-bo-b8O" eventType="touchUpInside" id="fQ9-Gh-lfB"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="k2v-cJ-DqN">
                                 <rect key="frame" x="20" y="210" width="560" height="370"/>
